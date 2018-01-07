@@ -12,6 +12,9 @@ body {
 	margin: 0;
 	padding: 0;
 }
+.mobile-only {
+	display: none;
+}
 
 /* Splash Part */
 .splash {
@@ -40,7 +43,7 @@ h1 {
 }
 
 /* Side Menu */
-.menu {
+.menu.no-mobile {
 	position: fixed;
 	height: 100%;
 	box-sizing: border-box;
