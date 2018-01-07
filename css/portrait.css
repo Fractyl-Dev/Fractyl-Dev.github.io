@@ -170,6 +170,12 @@ button a {
 
 
 @media screen and (orientation: portrait) {
+	.no-mobile {
+	display: none;
+}
+.mobile-only {
+	display: static;
+}
 	html {
 	margin: 0;
 	padding: 0;
@@ -187,9 +193,20 @@ body {
 .mobile-only {
 	display: static;
 }
+h3, h2, h1 {
+	margin: 0 0 5vh 0;
+	font-size: 15vh;
+}
+#logo {
+	width: 30vh;
+	height: 30vh;
+	margin: 5vh 0 0 0;
+	background-color: black;
+	border-radius: 15vh;
+}
 .splash {
 	margin: 0;
-  padding: 25px 0 0 0;
+  padding: 10vh 0 0 0;
 	background-image: url("../images/Banner2.png");
 	background-attachment: fixed;
 	background-size: cover;
@@ -197,47 +214,25 @@ body {
 	color: #ffffff;
 	text-align: center;
 }
-.menu {
-	position: static;
-	box-sizing: border-box;
-	background-color: black;
-	border: 2.5px solid black;
-	text-align: center;
-	color: white;
-}
-h3 {
-	margin: 0 0 10px 0;
-	font-size: 50px;
-}
-#logo {
-	width: 100px;
-	height: 100px;
-	margin: 10px 0 0 0;
-	background-color: black;
-	border-radius: 50px;
-}
-#active-logo {
-	width: 100px;
-	height: 100px;
-	margin: 10px 0 0 0;
-	background-color: white;
-	border-radius: 50px;
-}
+
 .container {
-	padding: 40px 80px;
+	padding: 10vh 10vh;
 	margin: 0;
 }
 p {
-	font-size: 20px;
+	font-size: 5vh;
 	font-weight: 700;
 }
+h6 {
+	font-size: 2.5vh;
+}
 button {
-	margin: 15px 0;
-	padding: 5px 10px;
+	margin: 3.5vh 0;
+	padding: 1.5vh 5vh;
 	border: 0px solid black;
 	border-radius: 5px;
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 5vh;
 	background-color: #0000ff;
 	cursor: pointer;
 }
@@ -247,10 +242,10 @@ button a {
 }
 table {
 	background-color: #000000;
-	margin-top: 15px;
+	margin-top: 7.5vh;
 }
 td {
-	padding: 15px 0;
+	padding: 7.5vh 0;
 	text-decoration: none;
 	color: white;
 	font-weight: 700;
@@ -259,5 +254,11 @@ td {
 }
 td.active {
 	background-color: #0000d2;
+}
+.no-mobile {
+	display: none;
+}
+.mobile-only {
+	display: static;
 }
 }
