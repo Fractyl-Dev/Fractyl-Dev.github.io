@@ -12,9 +12,6 @@ body {
 	margin: 0;
 	padding: 0;
 }
-.mobile-only {
-	display: none;
-}
 
 /* Splash Part */
 .splash {
@@ -167,3 +164,6 @@ button a {
 	border-radius: 35px;
 }
 
+.mobile-only {
+	display: none;
+}
