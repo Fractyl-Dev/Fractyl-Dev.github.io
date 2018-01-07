@@ -4,7 +4,8 @@
 		<title>FractylDev - Contact</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="description" content = "FractylDev is a software, application, and website design company, focused on making your product stand out">
-		<link rel = "stylesheet" type = "text/css" href = "css/index.css"/>
+		<link rel = "stylesheet" media = "screen and (max-width: 480px)" type = "text/css" href = "css/portrait.css"/>
+		<link rel = "stylesheet" media = "screen and (min-width: 480px)" type = "text/css" href = "css/index.css"/>
 		<link rel = "shortcut icon" href = "images/Fractyl2.png"/>
 		<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700,900" rel="stylesheet">
 		<link rel="apple-touch-icon" sizes="72x72" href="icons/fractyl72.png" />
@@ -12,7 +13,7 @@
 		<link rel="apple-touch-icon" sizes="144x144" href="icons/fractyl144.png" />
 	</head>
 	<body>
-		<div class = "menu">
+		<div class = "menu no-mobile">
 			<a href = "index.html"><img src = "images/Fractyl2.png" id = "logo"/></a>
 			<h3>FractylDev<br></h3>
 			<ul>
@@ -23,7 +24,20 @@
 		</div>
 		<div class = "main">
 			<div class = "splash">
-				<h1>Contact<br>Us</h1>
+				<div class = "mobile-only">
+					<a class = "mobile-only logo" href = "index.html"><img src = "images/Fractyl2.png" id = "logo"/></a>
+				<h3>Contact Us</h3>
+				</div>
+				<h1 class = "no-mobile">Contact<br>Us</h1>
+				<div class = "mobile-only">
+					<table style = "width: 100%">
+						<tr>
+							<td onclick = "link('about.html')">About</td>
+							<td onclick = "link('morse.html')">Our Work</td>
+							<td class = "active" onclick = "link('contact.html')">Contact</td>
+						</tr>
+					</table>
+				</div>
 			</div>
 			<div class = "container">
 				<h2>Want to contact us?</h2>
@@ -32,16 +46,21 @@
 				<br>
 				<h4>Customer Support</h4>
 				<p>support@fractyldev.com</p>
-				<br>
+				<br class = "no-mobile">
 				<h4>Client Contact</h4>
 				<p>contact@fractyldev.com</p>
-				<br>
+				<br class = "no-mobile">
 				<h4>Press</h4>
 				<p>press@fractyldev.com</p>
 			</div>
-			<div class = "container">
-				<h6>Copyright &copy; 2018 FractylDev</h6>
-			</div>
+				<h6 style = "margin: 15px; text-align: center;">Copyright &copy; 2018 FractylDev</h6>
 		</div>
+		<script>
+			{
+				function link(x) {
+					document.location.href = x;
+				}
+			}
+		</script>
 	</body>
 </html>
