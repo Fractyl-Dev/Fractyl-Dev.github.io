@@ -185,28 +185,28 @@ button a {
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #ffffff;
 }
 .no-mobile {
 	display: none;
 }
 .mobile-only {
-	display: static;
+	display: inline;
 }
 h3, h2, h1 {
-	margin: 0 0 5vh 0;
-	font-size: 15vh;
+	margin: 0 0 5vw 0;
+	font-size: 15vw;
+	text-align: center;
 }
 #logo {
-	width: 30vh;
-	height: 30vh;
-	margin: 5vh 0 0 0;
+	width: 30vw;
+	height: 30vw;
+	margin: 5vw 0 0 0;
 	background-color: black;
-	border-radius: 15vh;
+	border-radius: 15vw;
 }
 .splash {
 	margin: 0;
-  padding: 10vh 0 0 0;
+  padding: 0 0 0 0;
 	background-image: url("../images/Banner2.png");
 	background-attachment: fixed;
 	background-size: cover;
@@ -216,23 +216,23 @@ h3, h2, h1 {
 }
 
 .container {
-	padding: 10vh 10vh;
+	padding: 10vw 10vw;
 	margin: 0;
 }
 p {
-	font-size: 5vh;
+	font-size: 5vw;
 	font-weight: 700;
 }
 h6 {
-	font-size: 2.5vh;
+	font-size: 2.5vw;
 }
 button {
-	margin: 3.5vh 0;
-	padding: 1.5vh 5vh;
+	margin: 3.5vw 0;
+	padding: 1.5vw 5vw;
 	border: 0px solid black;
-	border-radius: 5px;
+	border-radius: 2.5vw;
 	font-weight: 700;
-	font-size: 5vh;
+	font-size: 5vw;
 	background-color: #0000ff;
 	cursor: pointer;
 }
@@ -242,23 +242,18 @@ button a {
 }
 table {
 	background-color: #000000;
-	margin-top: 7.5vh;
+	margin-top: 7.5vw;
 }
 td {
-	padding: 7.5vh 0;
+	padding: 7.5vw 0;
 	text-decoration: none;
 	color: white;
 	font-weight: 700;
 	cursor: pointer;
 	width: 33.3%;
+	font-size: 5vw;
 }
 td.active {
 	background-color: #0000d2;
-}
-.no-mobile {
-	display: none;
-}
-.mobile-only {
-	display: static;
 }
 }
