@@ -4,16 +4,18 @@
 		<title>FractylDev</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="description" content = "FractylDev is a software, application, and website design company, focused on making your product stand out">
-		<link rel = "stylesheet" type = "text/css" href = "css/index.css"/>
 		<link rel = "shortcut icon" href = "images/Fractyl2.png"/>
 		<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700,900" rel="stylesheet">
 		<link rel="apple-touch-icon" sizes="72x72" href="icons/fractyl72.png" />
 		<link rel="apple-touch-icon" sizes="114x114" href="icons/fractyl114.png" />
 		<link rel="apple-touch-icon" sizes="144x144" href="icons/fractyl144.png" />
+		
+		<link rel = "stylesheet" media = "screen and (max-width: 480px)" type = "text/css" href = "css/portrait.css"/>
+		<link rel = "stylesheet" media = "screen and (min-width: 480px)" type = "text/css" href = "css/index.css"/>
 	</head>
 	<body>
-		<div class = "menu">
-			<a href = "index.html"><img src = "images/Fractyl2.png" id = "logo"/></a>
+		<div class = "menu no-mobile">
+			<a href = "index.html"><img src = "images/Fractyl2.png" id = "active-logo"></a>
 			<h3>FractylDev</h3>
 			<ul>
 				<li><a href = "about.html">About</a></li>
@@ -23,28 +25,48 @@
 		</div>
 		<div class = "main">
 			<div class = "splash">
-				<h1>Development<br>Done Right</h1>
+				<div class = "mobile-only">
+					<a class = "mobile-only logo" href = "index.html"><img src = "images/Fractyl2.png" id = "logo"/></a>
+				<h3>FractylDev</h3>
+				</div>
+				<h1 class = "mobile-only">Development Done Right</h1>
+				<h1 class = "no-mobile">Development<br>Done Right</h1>
+				<div class = "mobile-only">
+					<table style = "width: 100%">
+						<tr>
+							<td onclick = "link('about.html')">About</td>
+							<td onclick = "link('morse.html')">Our Work</td>
+							<td onclick = "link('contact.html')">Contact</td>
+						</tr>
+					</table>
+				</div>
 			</div>
 			<div class = "container">
-				<h2>What is FractylDev?</h2>
+				<h2 class = "no-mobile">What is FractylDev?</h2>
 				<p>FractylDev is a software, application, and website development company, based in Colorado. Our mission is to create uniquely functional and beautifully designed products for both the general population and clients.</p>
-				<p>FractylDev was founded by six high intermediate and advanced programmers, designers, developers, and most importantly, people.</p>
+				<br>
+				<p>FractylDev was founded by six intermediate and advanced programmers, designers, developers, and most importantly, people.</p>
 				<button><a href = "about.html">Our Story</a></button>
 			</div>
-			<hr>
-			<div class = "container">
+			<hr class = "no-mobile">
+			<div class = "container no-mobile">
 				<h2>Examples of Our Work</h2>
 				<p>At FractylDev, we take pride in making quality, outstanding products. Part of that means working both on our own and with clients and their needs to develop amazing products!</p>
 				<p>Below are our most recent projects we have been able to work on.</p>
 			</div>
-			<div class = "flex-parent">
+			<div class = "flex-parent no-mobile">
 				<div class = "flex-card" id = "card-morse">
 					<a href = "morse.html"><img src = "images/morse.png" class = "card-image"/></a>
 				</div>
 			</div>
-			<div class = "container">
-				<h6>Copyright &copy; 2018 FractylDev</h6>
-			</div>
+				<h6 style = "margin: 15px; text-align: center;">Copyright &copy; 2018 FractylDev</h6>
 		</div>
+		<script>
+			{
+				function link(x) {
+					document.location.href = x;
+				}
+			}
+		</script>
 	</body>
 </html>
