@@ -225,6 +225,7 @@ h3 {
 }
 .container {
 	padding: 40px 80px;
+	margin: 0;
 }
 p {
 	font-size: 20px;
