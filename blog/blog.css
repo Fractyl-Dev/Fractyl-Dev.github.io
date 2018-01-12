@@ -1,170 +1,59 @@
-body {
-	font-family: 'Raleway', sans-serif;
-	margin: 0;
-	padding: 0;
-	background-color: #dddddd;
-}
-h1 {
-	font-size: 6.5vw;
-	text-align: center;
-	font-weight: 900;
-	margin: 5px;
-}
-h2 {
-	font-size: 4.5vw;
-	font-weight: 700;
-	text-align: center;
-	margin: 5px;
-}
-.top {
-	background-color: #141414;
-	padding: 15px 10px;
-	color: white;
-}
-h3 {
-	text-align: center;
-	font-size: 7.5vw;
-}
-h4 {
-	font-size: 5vw;
-	font-weight: 700;
-	margin: 0 0 2.5px 0;
-}
-h5 {
-	font-size: 3vw;
-	font-weight: 400;
-	margin: 0 0 15px 0;
-}
-h6 {
-	font-size: 3vw;
-	text-align: center;
-}
-.viewPost {
-	background-color: #ffffff;
-	padding:5vw 10vw;
-}
-.viewPost h5 {
-	text-align: center;
-	margin-top: 0;
-}
-p {
-	margin: 0 0 25px 0;
-	font-size: 20px;
-	font-family: 'Open Sans';
-}
-img {
-	margin-top: 6.5vw;
-	margin-bottom: 6.5vw;
-	width: 80%; 
-	margin-left: 10%;
-	border-radius: 50px;
-}
-.viewPost p {
-	text-indent: 10vw;
-	margin: 0 0 10px 0;
-}
-.view {
-	margin: 0 0 25% 0;
-}
-.post {
-	background-color: #ffffff;
-	box-shadow: 1px 1px black;
-	margin: 5vw 10vw;
-	padding: 20px 20px;
-}
-a {
-	font-size: 4vw;
-	text-decoration: none;
-	text-align: center;
-	color: white;
-	padding: 10px 15px;
-	background-color: #141414;
-	border-radius: 20px;
-}
-.fixed {
-	position: fixed;
-	bottom: 10px;
-	left: 35%;
-	width: 30%;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	box-sizing: border-box;
-	font-size: 20px
-}
-.fixed-desktop {
-	display: none;
-}
-
-@media screen and (orientation: landscape) {
-	.top {
-		position: fixed;
-		width: 100%;
-		background-color: #141414;
-	}
-	.view {
-		margin: 0 0 75px 0;
-		padding: 100px 100px 50px 100px;
-	}
-	.back {
-		text-align: right;
-		position: fixed;
-		bottom: 5px;
-		right: 200px;
-	}
-	.fixed {
-		display: none;
-	}
-	.fixed-desktop {
-		display: initial;
-		background-color: #141414;
-		position: fixed;
-		width: 100%;
-		bottom: 0;
-		left: 0;
-		padding: 15px 200px;
-	}
-	img {
-		margin-top: 15px;
-		margin-bottom: 15px;
-		width: 60%; 
-		margin-left: 20%;
-		border-radius: 50px;
-	}
-	.post {
-		background-color: #ffffff;
-		box-shadow: 1px 1px black;
-		margin: 12.5px;
-		padding: 20px 20px;
-	}
-	.viewPost {
-		padding: 75px 25% 75px 25%;
-	}
-	h1 {
-		font-size: 35px;
-	}
-	h3 {
-		font-size: 40px;
-		margin-bottom: 5px;
-	}
-	h4 {
-		font-size: 30px;
-	}
-	h5 {
-		margin: 10px 0;
-		font-size: 15px;
-	}
-	h6 {
-		font-size: 18px;
-		margin: 0 0 15px 0;
-	}
-	p {
-		font-size: 20px;
-	}
-	a {
-		transition: 0.5s;
-		font-size: 17.5px;
-		background-color: #141414;
-	}
-	a:hover {
-	}
-}
+<!doctype html>
+<html>
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112011245-1"></script>
+		<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){
+  			dataLayer.push(arguments);
+  		}
+  		gtag('js', new Date());
+  		gtag('config', 'UA-112011245-1');
+		</script>
+		<title>FractylDev Blog Post</title>
+		<link rel = "stylesheet" type = "text/css" href = "../blog.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="description" content = "Fractyl Development, or FractylDev is a software, application, and website design company, focused on creating products that stand out">
+		<link rel = "shortcut icon" href = "../../images/Fractyl2.png"/>
+		<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700,900" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link rel="apple-touch-icon" sizes="72x72" href="../icons/fractyl72.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="../icons/fractyl114.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="../icons/fractyl144.png" />
+	</head>
+	<body>
+		<div class = "top">
+			<h1>The FractylDev Blog</h1>
+		</div>
+		<div class = "viewPost">
+			<!-- This is for the post page itself. Directions follow.-->
+			<!--
+				No div is needed.
+				Must use an H3 element for title
+				h5 for date of post/article
+				Use h6 for keywords of the page, use these in the keyword meta tag
+				P for the post content
+				Everything else as is normally
+			-->
+			<h3>Morse: Official Beta Release</h3>
+			<h6>By Hunter Ball</h6>
+			<h5>January 10th, 2018</h5>
+			<hr>
+			<p>Hello everyone! We at FractylDev are proud to introduce our first app on the Google Play Store, <em>Morse</em>.</p>
+			<img src = "../../images/morse.png">
+			<p>Morse allows you to translate and send messages in Morse code, learn and quiz yourself to get better at Morse Code, and vibrate your text messages in Morse Code. Now, you don't even have to take your phone out of your pocket to know what your friends text you! </p>
+			<p>Right now, Morse is in it's beta stages, but you can get it right now on The Google Play store for Android deviced running Android 6.0 or later! The iOS Version will be coming soon, so don't worry iPhone users, you will soon be able to text and read your messages in Morse Code. </p>
+			<p>A new update to Morse will be available in just a few days, with bug fixes and major UI fixes for many devices, so make sure to get the app!</p>
+		</div>
+		<a class = "fixed" href = "../index.html">Back</a>
+		<div class = "fixed-desktop">
+				<a href = "../../index.html">Home</a>
+				<a href = "../../morse.html">Morse</a>
+				<a href = "../../about.html">About Us</a>
+				<a href = "../../contact.html">Contact Us</a>
+				
+				<a class = "back" href = "../index.html" >Back</a>
+			</div>
+	</body>
+</html>
