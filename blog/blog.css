@@ -164,6 +164,7 @@ a {
 		transition: 0.5s;
 		font-size: 17.5px;
 		background-color: #141414;
+		padding: 10px 15px;
 	}
 	a:hover {
 	}
