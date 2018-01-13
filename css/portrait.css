@@ -166,7 +166,12 @@ button a {
 	height: 100px;
 	border-radius: 35px;
 }
-
+.icons {
+	color: white;
+	margin: 15px 5px;
+	text-decoration: none;
+	font-size: 20px;
+}
 
 
 @media screen and (orientation: portrait) {
