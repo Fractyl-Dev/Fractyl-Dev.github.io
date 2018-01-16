@@ -129,11 +129,11 @@ a:hover {
 		display: none;
 	}
 	.post {
-		margin: 25px 5%;
+		margin: 50px 5%;
 		padding: 5%;
 	}
 	.viewPost {
-		margin: 25px 5%;
+		margin: 500px 5%;
 	}
 	.icons {
 		display: none;
@@ -161,5 +161,6 @@ a:hover {
 	}
 	a {
 		font-size: 40px;
+		padding: 15px 30px;
 	}
 }
