@@ -124,4 +124,28 @@ a:hover {
 	.icons {
 		display: none;
 	}
+	h1 {
+		font-size: 70px;
+	}
+	h2 {
+		font-size: 60px;
+	}
+	h3 {
+		font-size: 52.5px;
+	}
+	h4 {
+		font-size: 50px;
+	}
+	h5 {
+		font-size: 30px;
+	}
+	h6 {
+		font-size: 30px;
+	}
+	p {
+		font-size: 40px;
+	}
+	a {
+		font-size: 40px;
+	}
 }
