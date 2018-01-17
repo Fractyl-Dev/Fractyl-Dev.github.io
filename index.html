@@ -1,27 +1,40 @@
 <!doctype html>
 <html>
 	<head>
+		
 		<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112011245-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-112011245-1');
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112011245-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+  		function gtag(){
+  			dataLayer.push(arguments);
+  		}
+  		gtag('js', new Date());
+  		gtag('config', 'UA-112011245-1');
 </script>
-
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+  		(adsbygoogle = window.adsbygoogle || []).push({
+  			google_ad_client: "ca-pub-6109811758154634",
+    		enable_page_level_ads: true
+  		});
+		</script>
+		<!-- Main Stuff you need for a website... -->
 		<title>FractylDev</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="description" content = "FractylDev is a software, application, and website design company, focused on making your product stand out">
 		<link rel = "shortcut icon" href = "images/Fractyl2.png"/>
-		<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700,900" rel="stylesheet">
+		
+		<!-- Icon Links for App on Home Screen -->
 		<link rel="apple-touch-icon" sizes="72x72" href="icons/fractyl72.png" />
 		<link rel="apple-touch-icon" sizes="114x114" href="icons/fractyl114.png" />
 		<link rel="apple-touch-icon" sizes="144x144" href="icons/fractyl144.png" />
 		
+		<!-- Main Stylesheet Links -->
+		<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700,900" rel="stylesheet">
 		<link rel = "stylesheet" type = "text/css" href = "css/portrait.css"/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+		
 	</head>
 	<body>
 		<div class = "menu no-mobile">
@@ -29,8 +42,9 @@
 			<h3>FractylDev</h3>
 			<ul>
 				<li><a href = "about.html">About</a></li>
-				<li><a href = "morse.html">Our Work</a></li>
+				<li><a href = "morse.html">Morse</a></li>
 				<li><a href = "contact.html">Contact</a></li>
+				<li><a href = "blog/index.html">Blog</a></li>
 			</ul>
 			<br>
 			<a class = "icon-camera icons" href = "http://instagram.com/fractyldev"></a>
@@ -49,8 +63,9 @@
 					<table style = "width: 100%">
 						<tr>
 							<td onclick = "link('about.html')">About</td>
-							<td onclick = "link('morse.html')">Our Work</td>
+							<td onclick = "link('morse.html')">Morse</td>
 							<td onclick = "link('contact.html')">Contact</td>
+							<td onclick = "link('blog/index.html')">Blog</td>
 						</tr>
 					</table>
 				</div>
@@ -59,27 +74,26 @@
 				<h2 class = "no-mobile">What is FractylDev?</h2>
 				<p>FractylDev is a software, application, and website development company, based in Colorado. Our mission is to create uniquely functional and beautifully designed products for both the general population and clients.</p>
 				<br>
-				<p>FractylDev was founded by six intermediate and advanced programmers, designers, developers, and most importantly, people.</p>
+				<p>FractylDev was founded by six intermediate and advanced programmers, designers, and developers who wanted to create unique and powerful applications for Android and iOS users, and to better their skills with out of the box thinking and apps.</p>
 				<button><a href = "about.html">Our Story</a></button>
 			</div>
-			<hr class = "no-mobile">
-			<div class = "container no-mobile">
+			<hr>
+			<div class = "container">
 				<h2>Examples of Our Work</h2>
 				<p>At FractylDev, we take pride in making quality, outstanding products. Part of that means working both on our own and with clients and their needs to develop amazing products!</p>
-				<p>Below are our most recent projects we have been able to work on.</p>
+				<br>
+				<p>Our first app, Morse, is now available for Android Devices, with iOS support coming soon! It allows you to vibrate your messages in Morse Code, so you don't even have to take it out of your pocket! Not only that, but it also allows you to learn Morse code in a fun learning section, and send messages in dits and dashes to your friends!</p>
+				<button><a href = "morse.html">Morse Information</a></button>
 			</div>
-			<div class = "flex-parent no-mobile">
-				<div class = "flex-card" id = "card-morse">
-					<a href = "morse.html"><img src = "images/morse.png" class = "card-image"/></a>
-				</div>
-			</div>
-			<hr style = "margin-top: 25px;">
+			<hr>
 			<div class = "container">
-				<h2>Read Our Blog!</h2>
-				<p>Get more updates about our apps and our company!</p>
+				<h2>Want More Updates?</h2>
+				<p>All the latest information, news, app updates, releases, and basically anything else can be found on our blog! The blog is updated at least once a week, so make sure to check out the blog from time to time.</p>
 				<button><a href = "blog/index.html">Read The Blog</a></button>
 			</div>
-			<h6 style = "margin: 15px; text-align: center;">Copyright &copy; 2018 FractylDev</h6>
+			<div class = "container">
+				<h6 style = "text-align: center;">Copyright &copy; 2018 FractylDev</h6>
+			</div>
 		</div>
 		<script>
 			{
