@@ -23,6 +23,7 @@ body {
 	margin: 15px 5px;
 	text-decoration: none;
 	font-size: 20px;
+	display: inline-block;
 }
 /* Splash Part */
 .splash-morse {
@@ -166,6 +167,62 @@ button a {
 	border-radius: 35px;
 }
 
+footer {
+	padding: 25px 100px;
+	margin-left: 200px;
+	background-color: #282828;
+	color: white;
+	border-top: 10px solid #d20000;
+}
+footer h4 {
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+footer a {
+	display: block;
+	text-decoration: none;
+	color: #d0d0d0;
+	font-family: 'Open Sans';
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+footer h1 {
+	font-size: 40px;
+}
+footer .left {
+	float: left;
+	margin: 0 10% 0 0;
+}
+footer .left-last {
+	margin: 0;
+}
+footer .clear {
+	clear: both;
+	float: none;
+}
+.footer-image {
+	width: 150px;
+	height: auto;
+	margin: 0;
+	float: left;
+}
+
+@media screen and (max-width: 1200px) {
+	footer .left {
+		width: 40%;
+		margin: 0 10% 0 0;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	footer .left {
+		clear: both;
+		float: none;
+		width: 40%;
+		margin: 0 30%;
+	}
+}
 
 @media screen and (orientation: portrait) {
 	.no-mobile {
