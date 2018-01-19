@@ -220,24 +220,28 @@ footer .clear {
 .member {
 	float: left;
 	width: 28%;
-	height: 300px;
 	margin: 2.5%;
 	border-radius: 25px;
 	border: 2.5px solid #141414;
-	padding: 25px 15px;
+	padding: 20px;
 	box-sizing: border-box;
 	background-color: #dddddd;
 	transition: 1s;
+	text-align: center;
+}
+.member h4 {
+	margin-bottom: 5px;
+}
+.member a {
+	text-decoration: none;
+	color: white;
+	background-color: #0000d2;
+	padding: 5px 10px;
+	border-radius: 10px;
 }
 .member:hover {
 	box-shadow: 2px 2px 5px #333333;
 	background-color: #fafafa;
-}
-.member h4 {
-	text-align: center;
-}
-.member p {
-	text-indent: 0;
 }
 
 @media screen and (max-width: 1200px) {
@@ -261,7 +265,6 @@ footer .clear {
 		float: none;
 		width: 100%;
 		margin: 20px 0;
-		height: 250px;
 	}
 }
 
@@ -366,7 +369,7 @@ footer .clear {
 		height: auto;
 		padding: 50px 25px;
 	}
-	.member p {
+	.member h5 {
 		font-size: 25px;
 	}
 	.member h4 {
