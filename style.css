@@ -1,0 +1,233 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+p, a, li{
+	font-size: 18px;
+	font-family: 'Assistant', sans-serif;
+}
+h1 {
+	font-size: 35px;
+}
+h2 {
+	font-size: 25px;
+}
+h3 {
+	font-size: 22px;
+}
+h4 {
+	font-size: 20px;
+	font-weight: 400
+}
+h5 {
+	font-size: 17.5px;
+}
+h6 {
+	font-family: 'Assistant', sans-serif;
+	font-size: 12.5px;
+	font-weight: 400;
+}
+h6 a {
+	font-size: 12.5px;
+}
+hr {
+	margin: 15px 0;
+}
+.button {
+	padding: 10px 15px;
+	text-decoration: none;
+	color: white;
+	background-color: #000080;
+	text-align: center;
+	display: block;
+}
+.splash {
+	text-align: center;
+	padding: 25px 10px 25px 10px;
+	background: linear-gradient(#0000d2, #000000 60%);
+	color: white;
+		margin: 0;
+	padding: 0;
+}
+.splash.red {
+	background: linear-gradient(#d20000, #000000 60%)
+}
+.
+header {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+}
+.navigation {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.navigation li {
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+	background-color: #000000;
+	color: white;
+	padding: 0;
+	width: 25%;
+	text-align: center;
+}
+.navigation li a{
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	padding: 20px 0;
+	font-weight: 700;
+}
+.logo {
+	width: 25%;
+	height: auto;
+	margin: 0;
+	background-color: white;
+	border-radius: 50%;
+	margin: 20px 0 15px 0;
+}
+.container {
+	padding: 40px;
+	background-color: #ffffff;
+}
+.no-mobile {
+	display: none;
+}
+.white {
+	background-color: white;
+}
+footer {
+	background-color: #000000;
+	color: white;
+	padding: 20px 10px 10px 10px;
+}
+footer div {
+	width: 100%;
+	text-align: center;
+}
+footer .left {
+	text-align: center;
+	color: #dfdfdf;
+	text-decoration: none;
+	display: inline-block;
+	width: 49%;
+}
+footer .clear {
+	margin: 0;
+	padding: 0;
+}
+footer a {
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+footer .icons {
+	display: inline-block;
+	margin: 10px 5px;
+}
+.morse {
+	background-color: #800000;
+}
+
+
+
+
+/* Desktop Second */
+@media screen and (min-width: 775px){
+	.container {
+		background-color: white;
+	}
+	body {
+		margin-left: 250px;
+		background-color: black;
+	}
+	.logo {
+		width: 100px;
+		height: auto;
+		transition: 0.5s;
+	}
+	.logo:hover {
+		background-color: #000000;
+	}
+	.splash {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 250px;
+		height: 200px;
+		border-right: 10px solid #0000d2;
+	}
+	header {
+		position: fixed;
+		left: 0;
+		top: 200px;
+		width: 250px;
+		height: 100%;
+		background-color: black;
+		border-right: 10px solid #0000d2;
+	}
+	.navigation {
+		border-right: 10px solid #0000d2;
+	}
+	.navigation li {
+		display: block;
+		width: 100%;
+		transition: 0.5s;
+	}
+	.button {
+		display: inline-block;
+		padding: 10px 15px;
+		border-radius: 15px;
+		background-color: #0000d2;
+		transition: 0.5s;
+	}
+	.button:hover {
+		background-color: #000080;
+	}
+	footer {
+		padding: 25px 50px;
+	}
+	footer div {
+		width: 33%;
+		display: inline-block;
+	}
+	footer .left {
+		width: 32%;
+	}
+	.no-desktop {
+		display: none;
+	}
+	.no-mobile {
+		display: initial;
+	}
+	.clear {
+		width: 100%;
+	}
+	.banner {
+		text-align: center;
+		padding: 100px 25px;
+		background-image: url("images/Banner.png");
+		background-size: cover;
+		display: block;
+	}
+	.banner h2 {
+		font-size: 50px;
+		color: white;
+		font-weight: 400;
+	}
+	.navigation li a {
+		font-size: 20px;
+		width: 100%;
+	}
+	.navigation li:hover {
+		background-color: #0000d2;
+	}
+}
