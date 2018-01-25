@@ -249,4 +249,7 @@ footer .icons {
 	.navigation.morse {
 		border-right: 10px solid #d20000;
 	}
+	.navigation.morse li:hover {
+		background-color: #d20000;
+	}
 }
