@@ -189,8 +189,14 @@ footer .icons {
 		background-color: #0000d2;
 		transition: 0.5s;
 	}
+	.button.morse {
+		background-color: #d20000;
+	}
 	.button:hover {
 		background-color: #000080;
+	}
+	.button.morse:hover {
+		background-color: #800000;
 	}
 	footer {
 		padding: 25px 50px;
@@ -223,11 +229,24 @@ footer .icons {
 		color: white;
 		font-weight: 400;
 	}
+	.banner.morse {
+		background-image: none;
+		background: linear-gradient(#d20000, #000000 70%);
+	}
 	.navigation li a {
 		font-size: 20px;
 		width: 100%;
 	}
 	.navigation li:hover {
 		background-color: #0000d2;
+	}
+	.splash.red {
+		border-right: 10px solid #d20000;
+	}
+	header.morse-header {
+		border-right: 10px solid #d20000;
+	}
+	.navigation.morse {
+		border-right: 10px solid #d20000;
 	}
 }
