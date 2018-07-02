@@ -136,10 +136,18 @@ footer .icons {
 .morse {
 	background-color: #800000;
 }
-
-
-
-
+.card {
+	padding: 15px;
+	color: white;
+	background-color: #0000d2;
+}
+.card .button {
+	background-color: white;
+	color: black;
+}
+.card .button:hover {
+	color: white;
+}
 /* Desktop Second */
 @media screen and (min-width: 775px){
 	.container {
