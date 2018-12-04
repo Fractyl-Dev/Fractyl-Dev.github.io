@@ -13,6 +13,8 @@ p, a, li{
 }
 h1 {
 	font-size: 35px;
+	color: white;
+	text-shadow: 2px 2px #0000d2;
 }
 h2 {
 	font-size: 25px;
@@ -42,14 +44,14 @@ hr {
 	padding: 10px 15px;
 	text-decoration: none;
 	color: white;
-	background-color: #000080;
+	background-color: #0000d2;
 	text-align: center;
 	display: block;
 }
 .splash {
 	text-align: center;
 	padding: 25px 10px 25px 10px;
-	background: linear-gradient(#0000d2, #000000 60%);
+	background-color: black;
 	color: white;
 		margin: 0;
 	padding: 0;
@@ -57,7 +59,6 @@ hr {
 .splash.red {
 	background: linear-gradient(#d20000, #000000 60%)
 }
-.
 header {
 	width: 100%;
 	margin: 0;
@@ -82,8 +83,8 @@ header {
 .navigation li a{
 	text-decoration: none;
 	display: inline-block;
-	color: white;
-	padding: 20px 0;
+	color: #d0d0d0;
+	padding: 15px 0;
 	font-weight: 700;
 }
 .logo {
@@ -117,8 +118,8 @@ footer .left {
 	text-align: center;
 	color: #dfdfdf;
 	text-decoration: none;
-	display: inline-block;
-	width: 49%;
+	margin: 0;
+	padding: 0;
 }
 footer .clear {
 	margin: 0;
@@ -138,32 +139,47 @@ footer .icons {
 }
 .card {
 	padding: 15px;
-	color: white;
-	background-color: #0000d2;
+	box-shadow: 0 0 8px 2px #00000066;
 }
 .card .button {
 	background-color: white;
 	color: black;
+	border: 1px solid black;
 }
 .card .button:hover {
 	color: white;
+	box-shadow: none;
+	background-color: black;
+}
+.full-width {
+	width: 100%;
+}
+.half {
+	width: 100%;
+	margin: 10px 0;
+	box-sizing: border-box;
 }
 /* Desktop Second */
 @media screen and (min-width: 775px){
 	.container {
 		background-color: white;
+		margin: 0 50px 0 50px;
+		padding: 35px 75px 35px 75px;
 	}
 	body {
 		margin-left: 250px;
-		background-color: black;
+		background-color: #ffffff;
 	}
 	.logo {
 		width: 100px;
 		height: auto;
 		transition: 0.5s;
+		background-color: #000000;
+		margin-bottom: 0;
+		padding-bottom: 0;
 	}
 	.logo:hover {
-		background-color: #000000;
+		background-color: white;
 	}
 	.splash {
 		position: fixed;
@@ -171,7 +187,6 @@ footer .icons {
 		left: 0;
 		width: 250px;
 		height: 200px;
-		border-right: 10px solid #0000d2;
 	}
 	header {
 		position: fixed;
@@ -180,41 +195,48 @@ footer .icons {
 		width: 250px;
 		height: 100%;
 		background-color: black;
-		border-right: 10px solid #0000d2;
-	}
-	.navigation {
-		border-right: 10px solid #0000d2;
 	}
 	.navigation li {
 		display: block;
 		width: 100%;
-		transition: 0.5s;
 	}
 	.button {
 		display: inline-block;
 		padding: 10px 15px;
-		border-radius: 15px;
-		background-color: #0000d2;
+		background-color: #2222ff;
 		transition: 0.5s;
+		font-weight: 700;
 	}
 	.button.morse {
 		background-color: #d20000;
+		margin-bottom: 10px;
 	}
 	.button:hover {
-		background-color: #000080;
-	}
-	.button.morse:hover {
-		background-color: #800000;
+		box-shadow: 2px 2px #202020;
+		text-shadow: 1px 1px #202020;
 	}
 	footer {
 		padding: 25px 50px;
+		background-color: #202020;
 	}
 	footer div {
 		width: 33%;
 		display: inline-block;
 	}
 	footer .left {
-		width: 32%;
+		width: 33.3%;
+		float: left;
+	}
+	footer h4 {
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+	footer h5 {
+		font-size: 22px;
+	}
+	footer h6 {
+		font-size: 16px;
+		margin: 0;
 	}
 	.no-desktop {
 		display: none;
@@ -224,40 +246,76 @@ footer .icons {
 	}
 	.clear {
 		width: 100%;
+		clear: both;
 	}
 	.banner {
 		text-align: center;
-		padding: 100px 25px;
-		background-image: url("images/Banner.png");
-		background-size: cover;
+		padding: 125px 25px;
 		display: block;
+		background-image: url("images/Banner.png");
 	}
 	.banner h2 {
 		font-size: 50px;
 		color: white;
 		font-weight: 400;
+		vertical-align: middle;
 	}
 	.banner.morse {
 		background-image: none;
-		background: linear-gradient(#d20000, #000000 70%);
+		background: linear-gradient(#d20000, #400000 70%);
 	}
 	.navigation li a {
 		font-size: 20px;
 		width: 100%;
 	}
 	.navigation li:hover {
-		background-color: #0000d2;
+		/*text-shadow: 2px 2px #0000d2;*/
+		background-color: #202020;
+		color: white;
 	}
-	.splash.red {
-		border-right: 10px solid #d20000;
-	}
-	header.morse-header {
-		border-right: 10px solid #d20000;
+	.navigation li a:hover {
+		color: white;
 	}
 	.navigation.morse {
-		border-right: 10px solid #d20000;
 	}
 	.navigation.morse li:hover {
-		background-color: #d20000;
+		background-color: #202020;
+	}
+	h2 {
+		font-size: 60px;
+	}
+	h3 {
+		font-size: 48px;
+	}
+	h4 {
+		font-size: 40px;
+	}
+	h5 {
+		font-size: 28px;
+	}
+	h6 {
+		font-size: 16px;
+	}
+	h6 a {
+		font-size: 16px;
+	}
+	p, a, blockquote, li, ul {
+		font-size: 20px;
+	}
+	.card {
+		width: 45%;
+		margin: 2.5%;
+		float: left;
+		box-sizing: border-box;
+		color: black;
+	}
+	.half {
+		width: 45%;
+		margin: 0 2.5%;
+		float: left;
+		box-sizing: border-box;
+	}
+	.right {
+		float: right;
 	}
 }
