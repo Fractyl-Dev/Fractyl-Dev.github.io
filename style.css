@@ -125,8 +125,9 @@ h6 {
 	background-color: #0000d2;
 }
 .card {
-	padding: 25px 0;
+	padding: 25px 10px;
 	background-color: white;
+	box-sizing: border-box;
 	box-shadow: 0 0 8px rgba(0,0,0,0.5);
 }
 /*Footer*/
@@ -221,6 +222,9 @@ h6 {
 	}
 }
 @media screen and (max-width: 775px){
+	.no-mobile {
+		display: none !important;
+	}
 	h2 {
 		font-size: 32px;
 	}
