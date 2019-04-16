@@ -160,9 +160,18 @@ display: inline-block;
 	color: #0000ff;
 }
 /*Utilities*/
-#submission {
-  text-align: center;
-  }
+.submission{
+	padding: 10px;
+	background-color: #012d68;
+	color: white;
+	text-decoration: none;
+	 margin:0 auto;
+	text-align: center;
+	transition: 0.25s;
+}
+.submission:hover {
+	background-color: #011B3E;
+}
 
 .left {
 	float: left;
