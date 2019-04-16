@@ -119,6 +119,9 @@ display: inline-block;
 	max-width: 750px;
 	margin: 20px auto;
 }
+.wrapper {
+    text-align: center;
+}
 .button {
 	padding: 10px;
 	background-color: #012d68;
@@ -160,18 +163,6 @@ display: inline-block;
 	color: #0000ff;
 }
 /*Utilities*/
-.submission{
-	padding: 10px;
-	background-color: #012d68;
-	color: white;
-	text-decoration: none;
-	 margin:0 auto;
-	text-align: center;
-	transition: 0.25s;
-}
-.submission:hover {
-	background-color: #011B3E;
-}
 
 .left {
 	float: left;
