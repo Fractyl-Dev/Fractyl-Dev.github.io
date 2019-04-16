@@ -160,6 +160,10 @@ display: inline-block;
 	color: #0000ff;
 }
 /*Utilities*/
+#submission {
+  text-align: center;
+  }
+
 .left {
 	float: left;
 }
