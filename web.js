@@ -6,4 +6,7 @@ $(function () {
   $('.nav-toggle').click(function () {
   	$('.nav-menu').toggleClass('open');
   });
+  $('.notification .exit').click(function() {
+  	$('.notification').toggleClass('exited');
+  });
 });
