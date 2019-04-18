@@ -114,6 +114,15 @@ display: inline-block;
   left: 0;
   background-image: linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.125), rgba(0,0,0,0.35), rgba(0,0,0,0.5));
 }
+
+.largeSection {
+	padding: 75px;
+	background-image: linear-gradient(to right, rgba(0,0,0,0.125), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.125));
+}
+.largeSection .largeSection-inside {
+	max-width: 800px;
+	margin: 20px auto;
+}
 .section {
 	padding: 50px;
 	background-image: linear-gradient(to right, rgba(0,0,0,0.125), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.125));
