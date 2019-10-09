@@ -65,6 +65,7 @@ h6 {
 	height: 60px;
 	width: auto;
 	vertical-align: middle;
+	transition: 0.25s;
 }
 .nav .nav-item {
 	display: inline-block;
