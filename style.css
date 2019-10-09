@@ -90,9 +90,13 @@ display: inline-block;
 .nav.scrolled h1 {
 	color: black;
 }
+.nav.scrolled .nav-logo img {
+	height: 44px;
+}
 .nav.scrolled .nav-item {
 	color: black;
 	transition: 0.5s;
+	padding: 12px 20px;
 }
 .nav.scrolled .nav-item:hover {
 	color: #404040;
